@@ -1,3 +1,14 @@
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
+
+
+
+
+
 // Cart
 let cartIcon = document.querySelector('#cart-icon')
 let cart = document.querySelector('.cart')
